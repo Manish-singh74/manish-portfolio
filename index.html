@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Manish Singh — Data Analyst portfolio featuring analytics, business intelligence, dashboards and data visualization projects."
+    />
+    <meta name="theme-color" content="#07111f" />
+    <title>Manish Singh | Data Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="loader-ring"></div>
+      <span>Loading portfolio…</span>
+    </div>
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a class="brand" href="#home">MS<span>.</span></a
+        ><button class="menu" aria-label="Open menu">☰</button>
+        <div class="nav-links">
+          <a href="#home">Home</a><a href="#about">About</a
+          ><a href="#skills">Skills</a><a href="#experience">Experience</a
+          ><a href="#projects">Projects</a
+          ><a href="#certifications">Certifications</a
+          ><a href="#education">Education</a><a href="#resume">Resume</a
+          ><a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="hero section">
+        <div class="data-grid"></div>
+        <div class="floating-chart chart-a">
+          ↗<b>+35%</b><small>Growth</small>
+        </div>
+        <a
+          class="floating-chart chart-b"
+          href="#contact"
+          aria-label="Contact Manish about an opportunity"
+          ><span class="connect-icon">↗</span
+          ><span
+            ><b>Let’s Connect</b><small>Discuss an opportunity</small></span
+          ></a
+        >
+        <div class="hero-inner container">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <i></i> AVAILABLE FOR DATA ANALYST OPPORTUNITIES
+            </div>
+            <h1>Hi, I'm <span id="heroName">Manish Singh</span></h1>
+            <h2 id="heroTagline">
+              Data Analyst <em>·</em> Business Intelligence <em>·</em> Data
+              Visualization
+            </h2>
+            <p>
+              Aspiring Data Analyst with hands-on experience in data cleaning,
+              exploratory data analysis, KPI reporting, dashboard development,
+              and business intelligence.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects"
+                >View My Projects <span>↗</span></a
+              ><a
+                class="btn secondary"
+                id="heroResume"
+                href="assets/Manish_Singh_Resume.pdf"
+                download
+                >Download Resume ↓</a
+              >
+            </div>
+            <div class="socials">
+              <a
+                href="https://www.linkedin.com/in/manish-singh87/"
+                target="_blank"
+                rel="noreferrer"
+                >in</a
+              ><a
+                href="https://github.com/Manish-singh74"
+                target="_blank"
+                rel="noreferrer"
+                >GH</a
+              ><a href="mailto:your.email@example.com">@</a>
+            </div>
+          </div>
+          <div class="hero-visual reveal">
+            <div class="profile-orb">
+              <div class="profile-photo" id="heroPhoto"><span>MS</span></div>
+              <div class="orbit orbit-1"></div>
+              <div class="orbit orbit-2"></div>
+              <div class="orbit-dot dot-1"></div>
+              <div class="orbit-dot dot-2"></div>
+            </div>
+            <div class="availability-card">
+              <span class="pulse"></span>
+              <div>
+                <b>Data → Insight</b
+                ><small>Turning raw data into decisions</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div class="section-head reveal">
+            <span class="section-label">01 / ABOUT</span>
+            <h2>Turning raw data into <span>meaningful insight.</span></h2>
+          </div>
+          <div class="about-copy reveal">
+            <p>
+              I’m a Data Analyst focused on transforming raw datasets into
+              clear, decision-ready insights. My work combines analytical
+              thinking with practical business intelligence — from cleaning and
+              exploring data to building KPI-driven dashboards.
+            </p>
+            <div class="about-pills">
+              <span>Data Cleaning</span><span>EDA</span
+              ><span>KPI Reporting</span><span>Dashboard Development</span
+              ><span>Business Intelligence</span><span>Data Visualization</span
+              ><span>Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="section section-dark">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">02 / SKILLS</span>
+            <h2>Analytics <span>toolkit.</span></h2>
+            <p>
+              Tools I use to clean, analyze, visualize and communicate data.
+            </p>
+          </div>
+          <div id="skillsGrid" class="skills-grid"></div>
+        </div>
+      </section>
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">03 / EXPERIENCE</span>
+            <h2>Hands-on <span>experience.</span></h2>
+          </div>
+          <div id="experienceTimeline" class="timeline"></div>
+        </div>
+      </section>
+      <section id="projects" class="section section-dark">
+        <div class="container">
+          <div class="section-head row-head reveal">
+            <div>
+              <span class="section-label">04 / SELECTED WORK</span>
+              <h2>Projects built with <span>purpose.</span></h2>
+            </div>
+            <span class="section-note">Analytics · BI · Visualization</span>
+          </div>
+          <div id="projectsGrid" class="projects-grid"></div>
+        </div>
+      </section>
+      <section id="certifications" class="section">
+        <div class="container">
+          <div class="section-head row-head reveal">
+            <div>
+              <span class="section-label">05 / CREDENTIALS</span>
+              <h2>Certifications & <span>training.</span></h2>
+            </div>
+            <button class="manage-btn" id="openManager">
+              Manage Portfolio
+            </button>
+          </div>
+          <div id="certGrid" class="cert-grid"></div>
+        </div>
+      </section>
+      <section id="education" class="section section-dark">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">06 / EDUCATION</span>
+            <h2>Academic <span>foundation.</span></h2>
+          </div>
+          <div id="educationTimeline" class="education-list"></div>
+        </div>
+      </section>
+      <section class="section workflow">
+        <div class="container">
+          <div class="workflow-heading reveal">
+            <span class="section-label">DATA ANALYTICS WORKFLOW</span>
+            <h2>From raw data to <span>business insight.</span></h2>
+            <i aria-hidden="true"></i>
+          </div>
+          <div class="workflow-flow reveal">
+            <article class="workflow-step" style="--step-color: #13c9ff">
+              <div class="workflow-orb">
+                <span class="workflow-number">1</span
+                ><span class="workflow-icon">▤</span>
+              </div>
+              <h3>RAW DATA</h3>
+              <p>Collect data from various sources</p>
+            </article>
+            <article class="workflow-step" style="--step-color: #a64cff">
+              <div class="workflow-orb">
+                <span class="workflow-number">2</span
+                ><span class="workflow-icon">✦</span>
+              </div>
+              <h3>DATA CLEANING</h3>
+              <p>Handle missing values, remove duplicates and fix errors</p>
+            </article>
+            <article class="workflow-step" style="--step-color: #ff3f8e">
+              <div class="workflow-orb">
+                <span class="workflow-number">3</span
+                ><span class="workflow-icon">⚙</span>
+              </div>
+              <h3>TRANSFORMATION</h3>
+              <p>Convert, structure and prepare data for analysis</p>
+            </article>
+            <article class="workflow-step" style="--step-color: #ffa51f">
+              <div class="workflow-orb">
+                <span class="workflow-number">4</span
+                ><span class="workflow-icon">▥</span>
+              </div>
+              <h3>EDA</h3>
+              <p>Explore data and find meaningful patterns</p>
+            </article>
+            <article class="workflow-step" style="--step-color: #22e0a0">
+              <div class="workflow-orb">
+                <span class="workflow-number">5</span
+                ><span class="workflow-icon">☼</span>
+              </div>
+              <h3>VISUALIZATION</h3>
+              <p>Create charts and dashboards to communicate insights</p>
+            </article>
+            <article class="workflow-step" style="--step-color: #168cff">
+              <div class="workflow-orb">
+                <span class="workflow-number">6</span
+                ><span class="workflow-icon">▧</span>
+              </div>
+              <h3>BUSINESS INSIGHT</h3>
+              <p>Turn analysis into actionable decisions</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section highlights section-dark">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">08 / HIGHLIGHTS</span>
+            <h2>Proof points, <span>not hype.</span></h2>
+          </div>
+          <div class="stat-grid">
+            <div class="stat-card"><b>3+</b><span>Internships</span></div>
+            <div class="stat-card">
+              <b id="projectCount">3+</b><span>Analytics Projects</span>
+            </div>
+            <div class="stat-card">
+              <b>93/100</b><span>Internship Score · Grade A+</span>
+            </div>
+            <div class="stat-card">
+              <b id="certCount">4</b><span>Listed Certifications</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="resume" class="section resume-section">
+        <div class="container resume-card reveal">
+          <div>
+            <span class="section-label">09 / RESUME</span>
+            <h2>Want to know more about my <span>experience?</span></h2>
+            <p>
+              Review my complete resume for skills, internships, projects and
+              education.
+            </p>
+          </div>
+          <div class="resume-actions">
+            <a
+              class="btn primary"
+              id="resumeView"
+              href="assets/Manish_Singh_Resume.pdf"
+              target="_blank"
+              >View Resume ↗</a
+            ><a
+              class="btn secondary"
+              id="resumeDownload"
+              href="assets/Manish_Singh_Resume.pdf"
+              download
+              >Download Resume ↓</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section section-dark contact">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <span class="section-label">10 / CONTACT</span>
+            <h2>Let's Work With <span>Data.</span></h2>
+            <p>
+              Interested in working together, discussing a project, or hiring me
+              for a Data Analyst opportunity? Feel free to connect.
+            </p>
+            <div class="contact-list">
+              <a data-kind="email" href="mailto:your.email@example.com"
+                >✉ your.email@example.com</a
+              ><a data-kind="phone" href="tel:+917488352369"
+                >☎ +91 74883 52369</a
+              ><a
+                data-kind="linkedin"
+                href="https://www.linkedin.com/in/manish-singh87/"
+                target="_blank"
+                rel="noreferrer"
+                >◈ LinkedIn</a
+              ><a
+                data-kind="github"
+                href="https://github.com/Manish-singh74"
+                target="_blank"
+                rel="noreferrer"
+                >◈ GitHub</a
+              >
+            </div>
+          </div>
+          <form
+            class="contact-form reveal"
+            onsubmit="
+              event.preventDefault();
+              alert(
+                'Thanks! Please connect via email or LinkedIn to send this message.',
+              );
+            "
+          >
+            <input required placeholder="Name" /><input
+              required
+              type="email"
+              placeholder="Email"
+            /><input required placeholder="Subject" /><textarea
+              required
+              rows="6"
+              placeholder="Message"
+            ></textarea
+            ><button class="btn primary" type="submit">Send Message ↗</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer">
+        <span>© <span id="year"></span> Manish Singh</span
+        ><span>Built for data-driven opportunities.</span
+        ><a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+    <div class="modal" id="projectModal" aria-hidden="true">
+      <div class="modal-box">
+        <button class="close" data-close>×</button>
+        <div id="projectModalContent"></div>
+      </div>
+    </div>
+    <div class="modal" id="certModal" aria-hidden="true">
+      <div class="modal-box cert-viewer">
+        <button class="close" data-close>×</button>
+        <div id="certModalContent"></div>
+      </div>
+    </div>
+    <div class="modal manager-modal" id="managerModal" aria-hidden="true">
+      <div class="modal-box manager">
+        <button class="close" data-close>×</button>
+        <div class="manager-tabs">
+          <button class="active" data-tab="certs">Certificates</button
+          ><button data-tab="projects">Projects</button
+          ><button data-tab="profile">Profile</button
+          ><button data-tab="backup">Backup</button>
+        </div>
+        <div id="managerContent"></div>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
