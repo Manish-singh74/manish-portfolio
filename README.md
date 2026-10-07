@@ -174,3 +174,21 @@ Never expose:
 - private server credentials
 
 For a larger production system, add server-side validation, rate limiting/CAPTCHA for contact submissions, and optional email notifications.
+
+---
+
+## 👨‍💻 Made With ❤️ By
+
+### **Manish Singh**
+
+**Data Analyst | Python Developer | Power BI Enthusiast**
+
+📊 Turning data into meaningful insights  
+💻 Building practical and impactful projects  
+🚀 Always learning, building, and improving
+
+---
+
+⭐ **If you like this project, consider giving it a star!**
+
+© 2026 **Manish Singh**. All Rights Reserved.
